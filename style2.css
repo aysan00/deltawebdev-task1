@@ -30,26 +30,43 @@ BODY {
     .h3{
       font-size: 30px;
       color: ghostwhite;
-
+      
     }
     .head1{
       font-size: 40px;
       color:floralwhite;
       margin-left: 15cm;
     }
-    #timer{
-      font-size: 40px;
-      color: floralwhite;
-      margin-top: -5cm;
-    margin-left: 10cm;}
     #tables{
       display: inline-flex;
-      grid-gap: 75px 75px;
+    }
+    #timer{
+      font-size: 40px;
+      
+      margin-top: -5%;
+      margin-left: 80%;
+      color: floralwhite;
+      }
+  
+    #table > div::before{
+     padding-bottom: 100%;
+     display: block;
+      
     }
     #table{
-      margin-bottom: -10%;
-      margin-left: 5%;
+      padding-right: 10%;
+      
     }
+    #table2 > div::before{
+      padding-bottom: 100%;
+      display: block;
+       
+     }
+     #table2{
+       margin-left: -7%;
+       margin-top: 15%;
+     }
+    
     .button1{
       background-color: rgb(43, 179, 184);
      border: none;
@@ -79,13 +96,15 @@ BODY {
       display: table-cell;
       width: 75px;
       height: 75px;
+      
       border: 1px solid white;
             cursor: pointer;
     }
     .tile5, .tile6, .tile7, .tile8{
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
        
         cursor: pointer;
@@ -93,7 +112,8 @@ BODY {
       .tile9 , .tile10, .tile11, .tile12  {
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
          
         cursor: pointer;
@@ -101,7 +121,8 @@ BODY {
       .tile13, .tile14, .tile15, .tile16 {
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
         
         cursor: pointer;
@@ -109,7 +130,8 @@ BODY {
       .tile17, .tile18, .tile19, .tile20 {
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
         
         cursor: pointer;
@@ -117,7 +139,8 @@ BODY {
       .tile21, .tile22, .tile23, .tile24 {
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
         
         cursor: pointer;
@@ -125,7 +148,8 @@ BODY {
       .tile25 {
         display: table-cell;
         width: 75px;
-        height: 75px;
+            height: 75px;
+        
         border: 1px solid white;
       }
       .tile25 { cursor: default;}
@@ -136,7 +160,8 @@ BODY {
         .tile1k, .tile2k {
           display: table-cell;
           width: 75px;
-          height: 75px;
+            height: 75px;
+          
           border: 1px solid white;
           
           cursor: pointer;
@@ -145,6 +170,7 @@ BODY {
             display: table-cell;
             width: 75px;
             height: 75px;
+            
             border: 1px solid white;
             
             cursor: pointer;
@@ -153,6 +179,7 @@ BODY {
             display: table-cell;
             width: 75px;
             height: 75px;
+            
             border: 1px solid white;
              
             cursor: pointer;
@@ -161,6 +188,7 @@ BODY {
             display: table-cell;
             width: 75px;
             height: 75px;
+            
             border: 1px solid white;
            
             cursor: pointer;
@@ -169,6 +197,7 @@ BODY {
             display: table-cell;
             width: 75px;
             height: 75px;
+            
             border: 1px solid white;
             
             cursor: pointer;
@@ -177,6 +206,7 @@ BODY {
             display: table-cell;
             width: 75px;
             height: 75px;
+            
             border: 1px solid white;
             
             cursor: pointer;

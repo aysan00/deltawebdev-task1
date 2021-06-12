@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style2.css">
-        <title>tile puzzle</title>
+        <title>tile puzzle easy</title>
 </head>
 
    <body style="background-color:rgb(37, 13, 70);" class="my">
@@ -16,7 +16,9 @@
       <p  class="p2">Your target is to make the centre part of 5*5 grid as target grid you can move the tiles by clicking on it</p>
       <p class="p3">Click Sumbit once you match the Tiles</p>
       <button onClick="resetTimer();shuffle();startTimer();"   class="button1">Start Game</button>
-    
+      <div id="timer">
+         00:00:00
+      </div>
    <div></div>
    <div id="tables">
     <div id="table" class="table" style="display: table;">
@@ -58,9 +60,9 @@
   
      </div>
       
-      
+    <h3 class="h3">TargetGrid</h3>
      <div id="table2" class="table2" style="display: table2;">
-      <h3 class="h3">TargetGrid</h3>
+     
       <div  style="display: table-row;">
          <div id="cell11k" class="tile1k" style="background-color: blue;"></div>
          <div id="cell12k" class="tile2k" style="background-color: blue;"></div>
@@ -77,11 +79,7 @@
          <div id="cell33k" class="tile9k" style="background-color: brown;"></div>
       </div>
    </div>
-   <div id="timer">
-      00:00:00
-   
- 
-</div>
+  
 </div>
 <center> <button onClick="check();stopT();" class="button2">sumbit</button></center>
      <script src="script2.js"></script>
